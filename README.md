@@ -1,4 +1,5 @@
 # WANDA Bots
+**Repo:** [https://github.com/Jas0nOW/Wanda-Bots](https://github.com/Jas0nOW/Wanda-Bots)
 
 Remote control channels for WANDA with shared runtime, OAuth bridge, and VOX voice integration.
 
