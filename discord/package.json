@@ -1,0 +1,19 @@
+{
+  "name": "wanda-discord-bot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "start:debug": "WANDA_DEBUG=1 node bot.js",
+    "check": "node --check bot.js",
+    "validate": "node --check ../shared/debug.js && node --check ../shared/provider-config.js && node --check ../shared/runtime.js && node --check ../shared/wanda-cli.js && node --check ../shared/vox-cli.js && node --check bot.js"
+  },
+  "dependencies": {
+    "@google/genai": "^1.42.0",
+    "axios": "^1.13.5",
+    "discord.js": "^14.21.0",
+    "dotenv": "^17.3.1"
+  }
+}
